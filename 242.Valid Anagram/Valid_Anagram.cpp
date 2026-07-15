@@ -19,7 +19,8 @@ bool validAnagram(string s,string t)
     }
     return true;
 }
-int main() {
+int main() 
+{
     string s= "anagram";
     string t= "nagaram";
     cout<<validAnagram(s,t);
